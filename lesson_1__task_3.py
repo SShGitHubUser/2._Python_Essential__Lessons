@@ -21,6 +21,15 @@ class Book:
         self.public_year = public_year
         self.genre = genre
 
+    def __str__(self):
+        description = f'Book: {self.title}, {self.author}'
+
+    def __repr__(self):
+        return f'Class: Book'
+
+    def __del__(self):
+        print('Book deleting')
+
     def __eq__(self, another):
         return self.author == another.author and self.title == another.title
 
