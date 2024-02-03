@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/Kolobok/Работа в IT/Python Practices/CyberBionic Systematics/Python Essential/lesson_2__task_3.py</OriginalElement>
+  <nodes>
+    <node x="-649.0" y="225.0">lesson_2__task_3.A</node>
+    <node x="-650.3356282271945" y="387.736660929432">lesson_2__task_3.C</node>
+    <node x="-648.0" y="525.0">lesson_2__task_3.E</node>
+    <node x="-409.5" y="387.736660929432">lesson_2__task_3.D</node>
+    <node x="-889.171256454389" y="387.736660929432">lesson_2__task_3.B</node>
+    <node x="-648.0" y="645.0">lesson_2__task_3.F</node>
+    <node x="-595.5" y="105.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lesson_2__task_3.E" target="lesson_2__task_3.B" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-553.0" y="480.0" />
+      <point x="-793.671256454389" y="480.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_3.E" target="lesson_2__task_3.C" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-553.0" y="500.0" />
+      <point x="-553.8356282271945" y="500.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_3.E" target="lesson_2__task_3.D" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-553.0" y="500.0" />
+      <point x="-313.0" y="500.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_3.F" target="lesson_2__task_3.E" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_3.A" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_3.B" target="lesson_2__task_3.A" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-793.671256454389" y="330.0" />
+      <point x="-553.0" y="330.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_3.C" target="lesson_2__task_3.A" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-553.8356282271945" y="320.0" />
+      <point x="-553.0" y="320.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_3.D" target="lesson_2__task_3.A" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-313.0" y="320.0" />
+      <point x="-553.0" y="320.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9847457627118644" showDependencies="false" x="-422.5" y="420.0" />
+  <SelectedNodes>
+    <node>lesson_2__task_3.D</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/Kolobok/Работа в IT/Python Practices/CyberBionic Systematics/Python Essential/lesson_2__task_1.py</OriginalElement>
+  <nodes>
+    <node x="-112.5" y="225.0">lesson_2__task_1.Editor</node>
+    <node x="-126.5" y="345.0">lesson_2__task_1.ProEditor</node>
+    <node x="-42.5" y="105.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lesson_2__task_1.ProEditor" target="lesson_2__task_1.Editor" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_1.Editor" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="10.0" y="250.0" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+

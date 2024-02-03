@@ -6,7 +6,6 @@
 
 class Car:
     def __init__(self, model, year, color, number):
-        super().__init__()
         self.model = model
         self.year = year
         self.color = color
@@ -16,7 +15,6 @@ class Car:
 class Salon:
 
     def __init__(self):
-        super().__init__()
         self.cars = list()
 
     def add_car(self, car):

@@ -12,7 +12,6 @@ class Book:
         return super().__new__(cls)
 
     def __init__(self, author, title, public_year, genre):
-        super().__init__()
         print('__doc__ =', self.__doc__)
         print('__class__ =', self.__class__)
         print('__dict__ =', self.__dict__)
@@ -22,7 +21,7 @@ class Book:
         self.genre = genre
 
     def __str__(self):
-        description = f'Book: {self.title}, {self.author}'
+        return f'Book: {self.title}, {self.author}'
 
     def __repr__(self):
         return f'Class: Book'

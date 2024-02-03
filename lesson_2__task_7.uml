@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/Kolobok/Работа в IT/Python Practices/CyberBionic Systematics/Python Essential/lesson_2__task_7.py</OriginalElement>
+  <nodes>
+    <node x="-139.5" y="225.0">lesson_2__task_7.Vehicle</node>
+    <node x="-447.8126094570928" y="542.3029772329247">lesson_2__task_7.Refrigerated</node>
+    <node x="-269.0166374781086" y="383.65148861646236">lesson_2__task_7.Truck</node>
+    <node x="-78.2373029772329" y="542.3029772329247">lesson_2__task_7.Tanker</node>
+    <node x="-62.5" y="105.0">object</node>
+    <node x="301.54203152364266" y="383.65148861646236">lesson_2__task_7.Bus</node>
+    <node x="40.718914185639164" y="383.65148861646236">lesson_2__task_7.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lesson_2__task_7.Refrigerated" target="lesson_2__task_7.Truck" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-306.8126094570928" y="499.32574430823115" />
+      <point x="-155.51663747810858" y="499.32574430823115" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_7.Vehicle" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_7.Truck" target="lesson_2__task_7.Vehicle" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-155.51663747810858" y="330.0" />
+      <point x="-20.0" y="330.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_7.Car" target="lesson_2__task_7.Vehicle" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="145.21891418563916" y="319.32574430823115" />
+      <point x="-20.0" y="319.32574430823115" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_7.Tanker" target="lesson_2__task_7.Truck" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="542.3029772329247" />
+      <point x="0.0" y="460.0" />
+      <point x="-155.51663747810858" y="460.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="lesson_2__task_7.Bus" target="lesson_2__task_7.Vehicle" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="406.04203152364266" y="319.32574430823115" />
+      <point x="-20.0" y="319.32574430823115" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0773584905660378" showDependencies="false" x="111.99999999999989" y="369.99999999999994" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+

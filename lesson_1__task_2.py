@@ -6,7 +6,6 @@
 
 class Book:
     def __init__(self, author, title, public_year, genre):
-        super().__init__()
         self.author = author
         self.title = title
         self.public_year = public_year
