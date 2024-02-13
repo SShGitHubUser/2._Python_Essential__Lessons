@@ -4,6 +4,7 @@
 модулем shelve (https://docs.python.org/3/library/shelve.html), який у даному випадку буде дуже
 зручним та спростить виконання завдання.
 """
+
 import shelve
 from faker import Faker
 
@@ -12,5 +13,9 @@ with (shelve.open('short_url') as db):
     for _ in range(10):
         url = fake.url()
         uri = fake.uri_path()
-        db[url + uri] = url
+        db[url] = url + uri
         print(url + uri)
+
+with (shelve.open('short_url') as db):
+    for key, value in db.items():
+        print(f'short_URL: {key}, URL: {value}')
