@@ -1,4 +1,4 @@
-# 2._Python_Essential__Lessons
+# 3._Python_Essential__Lessons
 
 This project contains tasks for independent work in the Python Essential course. Since these are training assignments, 
 no error handling was used, and clean code rules were not followed.
